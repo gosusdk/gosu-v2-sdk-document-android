@@ -1,3 +1,17 @@
+GosuSDK for Android v1.3.0
+============================
+
+**Latest Gaming SDK with Enhanced Features**
+
+## What's New in v1.3.0
+
+### Changed
+- **Enhanced Error Management System**: Refactored the SDK alert and error messaging system for improved clarity and maintainability
+- **Improved Error Messages**: Enhanced error messaging for better clarity and understanding
+- **User-Friendly**: More intuitive and understandable error messages for end users
+- **Developer-Friendly**: Detailed error information and improved debugging support for developers
+
+========================================================================
 GosuSDK for Android v1.2.1
 ============================
 
