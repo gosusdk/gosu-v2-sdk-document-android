@@ -10,7 +10,7 @@ GosuSDK for Android v1.3.0
 - **Improved Error Messages**: Enhanced error messaging for better clarity and understanding
 - **User-Friendly**: More intuitive and understandable error messages for end users
 
-========================================================================
+
 GosuSDK for Android v1.2.1
 ============================
 
@@ -19,8 +19,9 @@ GosuSDK for Android v1.2.1
 ### 🐛 **Hotfix**
 - **Enhanced 16KB Page Size Support**: Fixed 16KB page size compliance for all native libraries across architectures (arm64-v8a, armeabi-v7a, x86, x86_64), enabling successful upload to Google Play Store.
 
-========================================================================
+
 GosuSDK for Android v1.2.0
+============================
 
 * Authentication & User Verification
 * Billing & Payment
