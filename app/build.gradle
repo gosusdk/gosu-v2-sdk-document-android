@@ -37,7 +37,7 @@ android {
 }
 
 dependencies {
-    implementation files('libs/gosusdk-v1.3.0.aar')
+    implementation files('libs/gosusdk-v1.4.0.aar')
     //add library
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation 'androidx.appcompat:appcompat:1.6.1'
