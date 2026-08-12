@@ -1,4 +1,4 @@
-GosuSDK for Android v1.3.0
+GosuSDK for Android v1.4.0
 ============================
 
 **Latest Gaming SDK with Enhanced Features**
