@@ -1,10 +1,21 @@
-GosuSDK for Android v1.4.0
+GosuSDK for Android v1.4.1
 ============================
 
 **Latest Gaming SDK with Enhanced Features**
 
-## What's New in v1.4.0
+## 🚀 What's New in v1.4.1
+============================
+We have upgraded the SDK's targetSdkVersion to 36 to ensure full compatibility with the latest Android versions. This update brings significant improvements to UI/UX and system interaction.
+### ✨ Key Improvements:
+- **Enhanced Dialog Fullscreen Experience**:
+* Dialogs now automatically hide the StatusBar and NavigationBar for a truly immersive experience.
+* Added smart Display Cutout (Notch) handling: Dialogs seamlessly extend into the notch area in Landscape mode, while safely avoiding the camera cutout in Portrait mode.
+- **Fixed Back Button Interception for API 36**:
+* Fully supported Android 13+ Predictive Back gesture using the new OnBackInvokedCallback API.
+* Fixed legacy KeyEvent interception to ensure the Back button is reliably blocked across all Android versions (API 26 - 36) without causing memory leaks.
 
+GosuSDK for Android v1.4.0
+============================
 ### Changed
 - **Scope Management**: Enable users to conveniently verify their information through a webview.
 - **Improved Error Messages**: Enhanced error messaging for better clarity and understanding
@@ -13,8 +24,6 @@ GosuSDK for Android v1.4.0
 
 GosuSDK for Android v1.2.1
 ============================
-
-**Latest Gaming SDK with Enhanced Features**
 
 ### 🐛 **Hotfix**
 - **Enhanced 16KB Page Size Support**: Fixed 16KB page size compliance for all native libraries across architectures (arm64-v8a, armeabi-v7a, x86, x86_64), enabling successful upload to Google Play Store.
